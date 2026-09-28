@@ -1,0 +1,6 @@
+// Event dates and details are intentionally placeholders. Confirm these before publishing.
+export const events = [
+  { fileNumber: '01', title: 'THE OPEN QUESTION', teaser: 'Bring a problem worth thinking about.', day: '12', ordinalSuffix: 'TH', month: 'OCTOBER', year: '2026', date: '12 October 2026', time: '10:00 AM — 12:00 PM', venue: 'St. Peter’s Engineering College', description: 'A placeholder gathering for curious minds to share questions and explore possibilities together.' },
+  { fileNumber: '02', title: 'BUILD / TEST / REPEAT', teaser: 'An afternoon for ideas with rough edges.', day: '24', ordinalSuffix: 'TH', month: 'OCTOBER', year: '2026', date: '24 October 2026', time: '02:00 PM — 05:00 PM', venue: 'Innovation Studio — TBC', description: 'A placeholder hands-on session to shape an early concept into something testable.' },
+  { fileNumber: '03', title: 'AFTER THE FIRST DRAFT', teaser: 'Show what you made. Talk about what changed.', day: '08', ordinalSuffix: 'TH', month: 'NOVEMBER', year: '2026', date: '8 November 2026', time: '11:00 AM — 01:00 PM', venue: 'St. Peter’s Engineering College', description: 'A placeholder share-out for works in progress, useful feedback and the next iteration.' },
+];

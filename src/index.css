@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap');
+@import "tailwindcss";
+
+:root { font-family: 'DM Sans', Arial, sans-serif; color: #090909; background: #f4f0e6; font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; --orange: #ff5a00; --black: #090909; --ivory: #f4f0e6; --acid: #e8ff00; --art-stone: #ddd7ca; --art-sage: #c7d0bd; --mono: 'DM Mono', monospace; --display: 'Archivo Black', Impact, sans-serif; --serif: 'Instrument Serif', Georgia, serif; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 86px; }
+body { margin: 0; min-width: 320px; overflow-x: hidden; }
+body.menu-open { overflow: hidden; }
+button, a { font: inherit; color: inherit; }
+a { text-decoration: none; }
+button { cursor: pointer; }
+button:focus-visible, a:focus-visible { outline: 3px solid #ff5a00; outline-offset: 4px; }
+::selection { color: #090909; background: #e8ff00; }
+img { max-width: 100%; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation: none !important; transition-duration: .01ms !important; } .scroll-progress { display: none; } }
