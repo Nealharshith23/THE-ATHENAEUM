@@ -254,7 +254,12 @@ window.ATHENAEUM_CONTENT = {
       ],
       "description": "No names imagined. Just empty frames ready for the people who make this place.",
       "photoPlaceholder": "PHOTO PLACEHOLDER",
-      "placeholderNote": "MEMBER PROFILES ARE PLACEHOLDERS — ADD APPROVED NAMES & PHOTOS"
+      "placeholderNote": "MEMBER PROFILES ARE PLACEHOLDERS — ADD APPROVED NAMES & PHOTOS",
+      "groups": {
+        "faculty": "FACULTY",
+        "studentTeam": "STUDENT TEAM",
+        "facultyEmpty": "FACULTY PROFILES WILL APPEAR HERE"
+      }
     },
     "join": {
       "number": "07",
@@ -367,6 +372,7 @@ window.ATHENAEUM_CONTENT = {
   "members": [
     {
       "archive": "ATHENAEUM ARCHIVE / 026",
+      "team": "student",
       "initial": "A",
       "name": "MEMBER NAME",
       "role": "ROLE / TITLE",
@@ -380,6 +386,7 @@ window.ATHENAEUM_CONTENT = {
     },
     {
       "archive": "ATHENAEUM ARCHIVE / 027",
+      "team": "student",
       "initial": "B",
       "name": "MEMBER NAME",
       "role": "ROLE / TITLE",
@@ -393,6 +400,7 @@ window.ATHENAEUM_CONTENT = {
     },
     {
       "archive": "ATHENAEUM ARCHIVE / 028",
+      "team": "student",
       "initial": "C",
       "name": "MEMBER NAME",
       "role": "ROLE / TITLE",
