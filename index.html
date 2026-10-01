@@ -1,15 +1,26 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/athenaeum-logo.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#f4f0e6" />
-    <meta name="description" content="The Athenaeum — a student-driven community for research, innovation, development and ideas worth building." />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f4f0e6">
+    <meta name="description" content="The Athenaeum — a student-driven community for research, innovation, development and ideas worth building.">
+    <link rel="icon" type="image/png" href="public/athenaeum-logo.png">
+    <link rel="stylesheet" href="styles.css">
     <title>The Athenaeum — Research · Innovate · Develop · Excell</title>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <div id="scroll-progress" class="scroll-progress" aria-hidden="true"></div>
+    <div id="site"></div>
+    <aside class="editor-bar" aria-label="Website editor">
+      <span id="editor-message">Want to update the page? Turn on edit mode.</span>
+      <div class="editor-actions">
+        <button id="edit-toggle" type="button">EDIT PAGE</button>
+        <button id="save-edits" type="button" hidden>SAVE</button>
+        <button id="cancel-edits" type="button" hidden>CANCEL</button>
+      </div>
+    </aside>
+    <script src="data.js"></script>
+    <script src="site.js"></script>
   </body>
 </html>
